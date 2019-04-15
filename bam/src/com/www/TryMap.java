@@ -23,3 +23,4 @@ public class TryMap {
 	}
 
 }
+//freq等於a數出現次數，freq為null時，frer為1，else freq+1
