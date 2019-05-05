@@ -7,11 +7,11 @@ public class Grade {
 	public static void main(String[] args) {
 		try {
 			Scanner scanner = new Scanner(System.in);
-			System.out.println("請輸入數學成績");
+			System.out.println("Please enter math");
 			Score math = new Score(scanner.nextLine());
-			System.out.println("請輸入英文成績");
+			System.out.println("Please enter english");
 			Score english = new Score(scanner.nextLine());
-			System.out.println("平均為" + average);
+			System.out.println((math.value + english.value)/2);
 		}catch(ScoreFormatException e) {
 			System.out.println(e.getMessage());
 		}

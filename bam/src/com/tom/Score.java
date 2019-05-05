@@ -1,14 +1,18 @@
 package com.tom;
 
 public class Score extends Grade {
-	String score;
-	
-	public Score(String score) {
-		this.score=score;
-	}
-	
-	public void average() {
-		Integer.parseInt(score);
-		System.out.println(score+score);
+	int value;
+	public Score(String s) throws ScoreFormatException{
+		try {
+			value = Integer.parseInt(s);
+		}catch(NumberFormatException e) {
+			throw new ScoreFormatException();
+		}catch(Exception b) {
+			try {
+				throw new ScoreOutofRangeException();
+			}catch(ScoreOutofRangeException c) {
+				c.printStackTrace();
+			}
+		}
 	}
 }
