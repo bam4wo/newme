@@ -1,4 +1,4 @@
-package com.www;
+package com.pizaang;
 
 public class Range {
 	int number;

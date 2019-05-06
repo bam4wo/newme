@@ -1,4 +1,4 @@
-package com.www;
+package com.pizza;
 
 public class OutofRangeException extends Exception{
 
@@ -6,6 +6,5 @@ public class OutofRangeException extends Exception{
 	public String getMessage() {
 		return "超出範圍";
 	}
-	
-	
+
 }

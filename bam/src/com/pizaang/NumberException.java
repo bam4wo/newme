@@ -1,4 +1,4 @@
-package com.www;
+package com.pizaang;
 
 public class NumberException extends Exception{
 
