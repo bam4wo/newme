@@ -13,7 +13,7 @@ public class Try {
 		set.add("Jack");
 		set.add("Banana");
 		set.add("Tomato");
-		System.out.println(set.contains("Jack"));
+		System.out.println(set.contains("Jack"));//會無法編譯，因為contains()方法必定使用equals方法來檢查是否相等
 	}
 }
 	
