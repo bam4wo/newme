@@ -16,7 +16,8 @@ public class SetTry {
 		set2.add("Jack");
 		set2.add("Eric");
 		set2.add("Janet");
-		//System.out.println(set2.get(1)); set沒有get語法
+		//System.out.println(set2.get(1)); set沒有get語法，因此無法編譯
+		System.out.println(set2);
 	}
 
 }
